@@ -1,0 +1,17 @@
+[package]
+name = "APTPAY_ESCROW"
+version = "1.0.0"
+authors = ["ramyatirandi484@gmail.com"]
+
+[addresses]
+escrow_addr = "0x96041583bb8decc58243772f8c6e27fb4fcd2c77d448bc6fa41aaf636d88cd6a"
+
+[dev-addresses]
+escrow_addr = "0x1"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
